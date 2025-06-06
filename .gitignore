@@ -1,0 +1,56 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Media files uploaded by users
+media/
+
+# Static files collected by collectstatic
+staticfiles/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Docker files (optional)
+*.pid
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
